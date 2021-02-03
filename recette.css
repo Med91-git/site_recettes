@@ -2,7 +2,7 @@
 
 
 * {
-    overflow: auto;             /* permet de readapter la taille du contenu en fonction du contenant*/
+    overflow: auto;         
 }  
 
 body {
@@ -17,7 +17,7 @@ div.contenu {
     background-color: white; 
     margin: 40px 8px 40px 8px;
     padding: 0px 8px 20px 8px;  
-    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);     /* permet de rajouter des effets d 'ombres et de flou autour du contenant */
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);    
     overflow: visible;  
 }      
 
@@ -40,32 +40,32 @@ div.description {
 
  .centre { 
     text-align: center;   
-    width: 100%;        /* adapter la taille de l'image au contenu*/
+    width: 100%;        
 }
 
 p.categorie {
     background-color:black;    
     color:white; 
     display: inline-block;
-    margin-top: -15px;    /* modif marges du haut*/
+    margin-top: -15px;    
     padding: 8px 18px;
-    margin-bottom: 0px;   /* modif marges du bas*/
-    font-weight: bold;  /* modif de texte en gras*/ 
-    font-size: 16px;    /* modif taille police du texte*/   
+    margin-bottom: 0px;   
+    font-weight: bold;  
+    font-size: 16px;      
 }   
 
 div.categorie {
     margin-bottom: 0px;  
     margin-top: 0px;  
-    overflow: visible;      /* chercher dans mon dossier la signification*/    
+    overflow: visible;       
 }  
 
 div.separateur {
     background-color: black;
-    height: 1px;    /* modif hauteur */
-    width: 100px;    /* modif largeur */ 
-    margin-left: auto;  /* permet d'adapter les marges automatiquement sur la gauche*/
-    margin-right: auto; /* permet d'adapter les marges automatiquement sur la droite*/ 
+    height: 1px;    
+    width: 100px;    
+    margin-left: auto;  
+    margin-right: auto; 
 }
 
 div.info {
@@ -97,7 +97,7 @@ table.info th {
 img.info {
     display: block;
     max-height: 400px;
-    object-fit: cover;      /* a chercher la signification */
+    object-fit: cover;     
     min-height: 200px; 
     background-color: lightgray;   
 }
@@ -121,7 +121,7 @@ div.colonne1 {
 }
 
 
-div.ingredients p {         /* permet d'appliquer une div sur des éléments précis */
+div.ingredients p {        
     text-align: center;
     border: 1px solid lightgray;
     font-size: 14px; 
@@ -139,8 +139,8 @@ table.preparation p.numero {
     font-size: 14px;
     font-weight: bold;
     padding-top: 4px;
-    box-sizing: border-box; /* garder taille totale du height peu importe la taille du padding*/
-    border-radius: 50%;     /* permet de donner du design a une bordure*/
+    box-sizing: border-box; 
+    border-radius: 50%;     
     margin: 0;
 }
 
@@ -154,16 +154,16 @@ table.preparation td.preparation_etape {
     padding-bottom: 10px;   
 } 
 
-table.preparation tr { 
+table.preparation tr {
     height: 40px;   
 }   
 
 /* Styles pour ordinateur */
-@media only screen and (min-width: 768px) {      /* Conditions : en dessous de 768px -> on passe au format mobile, a partir de 768-> on est sur le format ordinateur */
+@media only screen and (min-width: 768px) {     
     div.contenu { 
         margin: 60px 10% 80px 10%;
         padding: 0px 30px 30px 30px;  
-        min-width: 350px;   /* taille minimale pour ordinateur uniquement*/
+        min-width: 350px;  
         
     }      
 
@@ -189,11 +189,11 @@ table.preparation tr {
     }
     
     div.colonne2 {
-        float:right;    /* float permet de deplacer une colonne*/
+        float:right;    
     }
 }  
 
-@media only screen and (min-width: 900px) {  /* si largeur ecran format ordinateur atteint les 900px*/
+@media only screen and (min-width: 900px) {    
     div.contenu { 
         margin-left: auto;
         margin-right: auto;
